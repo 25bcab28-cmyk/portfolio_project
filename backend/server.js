@@ -17,7 +17,7 @@ const ContactSchema = new mongoose.Schema({
 const Contact = mongoose.model("Contact", ContactSchema);
 
 app.get("/", (req, res) => {
-  res.send("Jerome Portfolio Backend Running!");
+  res.send("Backend Running!");
 });
 
 app.post("/api/contact", async (req, res) => {
